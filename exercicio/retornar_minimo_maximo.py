@@ -28,10 +28,10 @@ def _gerar_lista_teste():
 
 def retornar_maior_menor(lista, tamanho, maior, menor):
     item = lista[tamanho - 1]
-    if menor == None or item < menor:
+    if item < menor:
         menor = item
 
-    if maior == None or item > maior:
+    if item > maior:
         maior = item
 
     tamanho -= 1
