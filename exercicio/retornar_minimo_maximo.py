@@ -8,7 +8,7 @@
 
     >>> tamanho = len(lista)
 
-    >>> maior = menor = None
+    >>> maior = menor = lista[0]
 
     >>> retornar_maior_menor(lista, tamanho, maior, menor)
     (1927, 16)
