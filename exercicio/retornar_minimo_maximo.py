@@ -19,7 +19,7 @@ def gerar_lista_aleatoria(quantidade, maximo):
     import random
     lista = []
     for i in range(quantidade):
-        lista.append(int(random.random()*maximo))
+        lista.append(random.randint(0,maximo))
     return lista
 
 def _gerar_lista_teste():
