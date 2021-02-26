@@ -10,6 +10,9 @@
 
     >>> maior = menor = lista[0]
 
+    >>> maior
+    345
+
     >>> retornar_maior_menor(lista, tamanho, maior, menor)
     (1927, 16)
 """
